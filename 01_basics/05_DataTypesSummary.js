@@ -18,7 +18,7 @@ String , Number , Boolean , null means  ( temperature is not zero its empty ) , 
                  const anotherId = Symbol('123')   // Result we get from id or anotherId is  not same 
 
                  TypeScript EXMP : const dcore : nukber = 100
-       or 
+                                    or 
 
 JavaScript is a Dynamically Typed Language. This means that the data types of variables can change during the program execution. JS is also capable of handling different types of data, such as strings, numbers, objects, functions, and more.
 
