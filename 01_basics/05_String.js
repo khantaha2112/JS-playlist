@@ -39,6 +39,21 @@ const newStringOne = "  hitesh     "
 console.log(newStringOne);
 console.log(newStringOne.trim());    //  hitesh --> remove all the space 
 
+
    
+const url = "https:/hitesh.com/hitesh%20choudhary"     // Browser dont understand spaces for ex hitesh choudhary , then browser will give hitesh%20choudhary (convert this into URL cosing)
+console.log(url.replace ('%20', '_'));        // give output as https:/hitesh.com/hitesh-choudhary  , %20 replace with -
+
+
+console.log(url.includes ('hitesh'));    // show output as true '
+
+console.log(url.includes ('sundar'));    // show output as  false 
+
+
+
+// CONVERT STRING INTO ARRAY 
+console.log(gameName.split('_'))   // we split bases on _ (dash)  --> [ 'hites-hc' ]
+
+
 
 // console.log("jamiahamdard".slice(-7,7));
