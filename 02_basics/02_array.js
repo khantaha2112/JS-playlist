@@ -13,7 +13,7 @@ console.log(marvel_heroes[3][1]);    // flash
 
 
 const allHeroes = marvel_heroes.concat(dc_heroes);
-console.log(allHeroes);             // output of ONCAT -- [ 'thor', 'Ironman', 'spiderman', 'superman', 'flash', 'batman' ]
+console.log(allHeroes);                 // output of CONCAT -- [ 'thor', 'Ironman', 'spiderman', 'superman', 'flash', 'batman' ]
 
 //      PUSH perform on an existing array but CONCAT returns a new array 
 
