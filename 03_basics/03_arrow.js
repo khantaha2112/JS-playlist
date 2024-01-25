@@ -51,5 +51,5 @@ user. welcomeMessage()           //  taha ,  welcome to our website
          // EXAMPLE 
          const myArray =[  2,5,3,7,8 ]
         //  myArray.forEach((  => {}))
-        myArray.forEach(()  => ())
+          // myArray.forEach(()  => ())
         myArray.forEach()
