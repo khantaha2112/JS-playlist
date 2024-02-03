@@ -55,4 +55,4 @@ console.log(userOne);     // console.log(userOne.isLoggedIN);
         console.log(userOne.constructor); // constructor property is a reference of own details 
 
         
-        // INSTACE OF 
+        // INSTACE OF
